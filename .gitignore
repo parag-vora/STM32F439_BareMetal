@@ -1,0 +1,61 @@
+# Build folders
+/build/
+/Debug/
+/Release/
+/bin/
+/obj/
+/out/
+
+# STM32CubeIDE / Eclipse
+.settings/
+.metadata/
+*.launch
+*.log
+*.tmp
+*.bak
+
+# Compiled object files
+*.o
+*.obj
+*.elf
+*.map
+*.lst
+*.d
+*.cyclo
+*.su
+
+# Compiled static/dynamic libraries
+*.a
+*.lib
+*.dll
+*.so
+
+# Executables / firmware images
+*.hex
+*.bin
+*.axf
+
+# Generated dependency files
+*.d
+
+# CMSIS / CubeMX auto-generated stuff you don’t want to track
+.ioc-backup
+*.ioc-bkp
+*.ioc-bak
+
+# CubeMX-generated files (optional: keep only .ioc)
+*.launches
+
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
