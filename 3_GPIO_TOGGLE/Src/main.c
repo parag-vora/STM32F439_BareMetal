@@ -14,7 +14,7 @@ int main(){
 
 	while(1){
 		/*set PB7 as a high*/
-		//GPIOB_OD_R |= LED2_PIN;
+		//GPIOB->ODR |= LED2_PIN;
 
 		/*toggle PB7 */
 		GPIOB->ODR ^= LED2_PIN;
