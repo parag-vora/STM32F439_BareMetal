@@ -16,6 +16,8 @@
     - Reads the state of a GPIO input pin and reflects its value on an output pin.
 * UART_Tx
     - Transmits a single character over UART using only register-level configuration.
+* UART_Printf
+    - Transmits a string over UART using register-level configuration.
  
 ## Requirements
 * Hardware:
